@@ -21,6 +21,6 @@ Avoiding the 'special cost' isn't hopeless though: we can improve the models we 
 
 We do not have a good solution to preventing the 'special cost' of creating software, but using inflation instead of debt is a much more accurate metaphor. Please use 'technical inflation' as the term of art when talking about this, so as to provide a more accurate vision to all our colleagues of the costs and benefits of choosing to incur more technical inflation.
 
-[^1] Above a certain size everything becomes a complex system, but some are more brittle than others.
-[^2] Even though software engineering work is not fungible,this universal weakening of effort affects all software engineering work.  The worsening is fungible?
-[^3] As an example, it is a risky action that requires a higher expected benefit to stop all new feature work on some system to improve some painful aspect of the system as it is.  S othat action is rarely taken.
+[^1]: Above a certain size everything becomes a complex system, but some are more brittle than others.
+[^2]: Even though software engineering work is not fungible,this universal weakening of effort affects all software engineering work.  The worsening is fungible?
+[^3]: As an example, it is a risky action that requires a higher expected benefit to stop all new feature work on some system to improve some painful aspect of the system as it is.  S othat action is rarely taken.
