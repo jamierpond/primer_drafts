@@ -3,13 +3,11 @@
   Whenever we add features to a software system, complexity grows. Adding complexity increases the software maintenance cost exponentially.
   People in the software industry have an instinct that 'cutting corners' lets us ship software faster, but with some sort of looming and unclear future price to be paid.
 
-  Let's call the idea that 'scaling-naive, corner-cutting code gets harder and harder to understand and do useful work in' the 'special cost'.  Most people in the software industry call this 'special cost' 'technical __debt__'.
+  Let's call the idea that 'corner-cutting code makes it harder to do useful work' the 'special cost'.  Most people in the software industry call this 'special cost' 'technical __debt__'.
 
   __It is not.__
 
   A more correct term is 'technical __inflation__'.
-
-  This 'special cost' makes the per unit effectiveness of all future engineering effort into a software system create less useful output.
 
   In financial systems, debt is an obligation from a borrower to a lender with a debt service payment and (often) a duration.  Taking out debt is often seen as a very positive action, providing access to future money early at computable and bounded cost. This early access to capital allows useful work to be done sooner with a quantified cost. The lender that provides the capital also receives compensation in excess of the risk it incurs by lending.
 
@@ -30,12 +28,10 @@ The 'special cost' in software we described has none of the debt-like qualities.
 1. People that are familiar enough with why the code was written a certain way and how to materially improve its design tend to leave organizations over time.
 2. Individuals tend to focus on things that get them promoted or rewarded within an organization: they take actions that the incentive structure of the organization rewards. Most organizations usually incentivize growth[^3] over efficiency in most cases.
 
-  Avoiding the 'special cost' isn't hopeless though: we can improve the models we use for future costs and perform better cost-benefit analysis before we do our work.  Thinking of this as inflation (something unavoidable that we need to minimize) instead of debt (something that gives us access to future capital with minimal, computable and bounded cost) results in us doing better at this estimation.  We can see that the 'special cost' reduces future effectiveness in an exponential fashion. We can also avoid the pitfall where we reason, "We deliver software faster! Therefore we actively want to take on technical debt to go faster in most situations, as technical debt is a net benfit!"
+  Avoiding the 'special cost' isn't hopeless though: we can improve the models we use for future cost-benefit analyses before we do our work. Thinking of this as inflation (something unavoidable that we need to minimize) instead of debt (something that gives us access to future capital with minimal, computable and bounded cost) results in us doing better at this estimation.  We can see that the 'special cost' reduces future effectiveness in an exponential fashion. We can also avoid the pitfall where we reason, "We deliver software faster! Therefore we actively want to take on technical debt to go faster in most situations, as technical debt is a net benfit!"
 
   We do not have a good solution to preventing the 'special cost' of creating software, but using inflation instead of debt is a much more accurate metaphor. Please use 'technical inflation' as the term of art when talking about this, so as to provide a more accurate vision to all our colleagues of the costs and benefits of choosing to incur more technical inflation.
 
 [^1]: Above a certain size everything becomes a complex system, but some are more brittle than others.
 [^2]: Even though software engineering work is not fungible,this universal weakening of effort affects all software engineering work.  The worsening is fungible?
 [^3]: As an example, it is a risky action that requires a higher expected benefit to stop all new feature work on some system to improve some painful aspect of the system as it is.  S othat action is rarely taken.
-
-
