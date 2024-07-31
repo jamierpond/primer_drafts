@@ -1,8 +1,7 @@
 # Technical Debt Is Better Named Technical Inflation
 
-  Whenever we add features to a software system, complexity grows.  Adding complexity increases total software maintenance cost exponentially.  Software engineers have a sense that 'cutting corners' makes this cost accumulate faster, in a way that is very expensive and error-prone to repair.
-
-  We have a sense that 'cutting corners' lets us ship software faster, but with some sort of looming and unclear future price to be paid.
+  Whenever we add features to a software system, complexity grows. Adding complexity increases the software maintenance cost exponentially.
+  People in the software industry have an instinct that 'cutting corners' lets us ship software faster, but with some sort of looming and unclear future price to be paid.
 
   Let's call the idea that 'scaling-naive, corner-cutting code gets harder and harder to understand and do useful work in' the 'special cost'.  Most people in the software industry call this 'special cost' 'technical __debt__'.
 
