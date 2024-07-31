@@ -16,7 +16,7 @@
 
   Inflation, however, is loss in purchasing power of a unit of currency over time. It isn't well controlled, it has persistent negative effects, and reversing its impact is prohibitively expensive.  It has no clear 'issuer' or 'lender'.  It is an observed and emergent characteristic of complex economic systems.  The people in those economic systems spend an enormous amounts of thought and effort trying to understand or ameliorate the impact of inflation.  They do this because inflation is in no sense optional.  It increases over time in almost all cases, reducing what today's money can buy tomorrow.  Attempts to control, reduce or predict the growth of inflation are extremely expensive and not guaranteed to work.
 
-The 'special cost' in software we described has none of the debt-like qualities. 'Technical __debt__' fails as a metaphor, resulting in bad cost-benefit analysis being made by engineering organizations. The metaphor implies:
+The 'special cost' in software we described has none of the debt-like qualities. 'Technical __debt__' fails as a metaphor, resulting in bad cost-benefit analysis being made by engineering organizations. The metaphor (wrongfully) implies:
   * the 'special cost' has consistent and stable debt service (or debt maintenance) cost.
   * the 'special cost' is local in scope, and has a small blast area. (<-- I agree this is how people think about it, but how is this implied from the above argument?)
   * the 'special cost' can be slowly and incrementally reduced with something like an interest payment.
@@ -40,7 +40,3 @@ The 'special cost' in software we described has none of the debt-like qualities.
 [^3]: As an example, it is a risky action that requires a higher expected benefit to stop all new feature work on some system to improve some painful aspect of the system as it is.  S othat action is rarely taken.
 
 
-Corner-cutting code continually compounds complexity!
-
-
-Corner-cutting code continually compounds complexity!
